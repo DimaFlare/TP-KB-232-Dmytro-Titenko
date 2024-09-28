@@ -3,3 +3,6 @@
 # 18.09.2024
 added folder topic_01
 added solution for topic_01
+
+# 28.09.2024
+added solutions for topic_02
