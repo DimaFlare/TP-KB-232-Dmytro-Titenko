@@ -6,3 +6,6 @@ added solution for topic_01
 
 # 28.09.2024
 added solutions for topic_02
+
+# 29.09.2024
+added solutions for topic_03

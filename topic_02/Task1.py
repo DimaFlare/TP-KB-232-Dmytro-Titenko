@@ -1,9 +1,9 @@
 import math
 
 def ask():
-    a = int(input("Enter a: "))
-    b = int(input("Enter b: "))
-    c = int(input("Enter c: "))
+    a = int(input("Введіть a: "))
+    b = int(input("Введіть b: "))
+    c = int(input("Введіть c: "))
     return a,b,c
 
 def calcDiscriminant(a,b,c):
@@ -13,7 +13,7 @@ def calcDiscriminant(a,b,c):
 def calcEquation(a,b,c):
     discriminant = calcDiscriminant(a,b,c)
     if (discriminant < 0):
-            return "Koreniv nema"
+            return "Коренів нема :("
     elif (discriminant > 0):
         x1 = (-b - math.sqrt(discriminant)) / (2*a)
         x2 = (-b + math.sqrt(discriminant)) / (2*a)
@@ -21,10 +21,13 @@ def calcEquation(a,b,c):
     elif (discriminant == 0):
         return -b/2*a
 
-while True:
-    try:
-        a,b,c = ask()
-        print("Result:", calcEquation(a, b, c))
-        break
-    except ValueError:
-        print("Something went wrong! Please enter integer values")
+def start():
+    while True:
+        try:
+            a,b,c = ask()
+            print("Результат:", calcEquation(a, b, c))
+            break
+        except ValueError:
+            print("Прошу вводити тільки цілі числа!")
+    return
+start()

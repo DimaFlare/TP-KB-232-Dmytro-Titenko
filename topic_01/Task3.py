@@ -8,4 +8,4 @@ def calcDiscriminant(a,b,c):
     return b*b-4*a*c
 
 a,b,c, = ask()
-print("Result: ", calcDiscriminant(a,b,c))
+print("Результат: ", calcDiscriminant(a,b,c))
