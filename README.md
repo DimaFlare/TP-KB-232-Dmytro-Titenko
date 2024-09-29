@@ -9,3 +9,4 @@ added solutions for topic_02
 
 # 29.09.2024
 added solutions for topic_03
+unexpectedly completed tasks of topic_04 in topic_02
