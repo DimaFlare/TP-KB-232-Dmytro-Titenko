@@ -23,6 +23,7 @@ def ask():
 
     return choice
 
+
 def play(choice):
     randomChoice = choices[random.randint(0, len(choices)-1)]
     if choice == randomChoice:
