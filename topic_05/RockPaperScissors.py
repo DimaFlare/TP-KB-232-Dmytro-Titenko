@@ -23,7 +23,6 @@ def ask():
 
     return choice
 
-
 def play(choice):
     randomChoice = choices[random.randint(0, len(choices)-1)]
     if choice == randomChoice:
@@ -34,6 +33,7 @@ def play(choice):
         return "Ви програли. Суперник вибрав: " + randomChoice
 
     return
+
 def start():
     while True:
         print(play(ask()))
