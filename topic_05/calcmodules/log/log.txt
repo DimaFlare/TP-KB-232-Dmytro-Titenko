@@ -1,0 +1,5 @@
+{a=10.0;operation=+;b=10.0;result=20.0}
+{a=55.0;operation=*;b=2.0;result=110.0}
+{a=909.0;operation=-;b=9.0;result=900.0}
+{a=100.0;operation=/;b=5.0;result=20.0}
+{a=1233.0;operation=/;b=23.0;result=53.608695652173914}

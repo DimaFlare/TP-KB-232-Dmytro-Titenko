@@ -1,6 +1,6 @@
 import random
 
-choices = ["rock", "paper", "scissors"]
+choices = ("rock", "paper", "scissors")
 
 beat = {
         "rock":"scissors",
