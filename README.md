@@ -14,3 +14,6 @@ added solutions for topic_05
 
 # 01.10.2024
 added solutions for topic_06
+
+# 02.10.2024
+added solutions for topic_07
