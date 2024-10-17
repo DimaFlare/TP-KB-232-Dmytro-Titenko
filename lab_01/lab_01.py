@@ -61,9 +61,22 @@ def updateElement():
     if position == -1:
         print("Element was not found")
     else:
-        surname = input("Pease enter new surname: ")
-        phone = input("Please enter new phone: ")
-        email = input("Pease enter new email: ")
+
+        name = input("Please enter new name. Space if you dont want change atribute: ")
+        if not name:
+            name = list[position]["name"]
+
+        surname = input("Pease enter new surname. Space if you dont want change atribute: ")
+        if not surname:
+            surname = list[position]["surname"]
+
+        phone = input("Please enter new phone. Space if you dont want change atribute: ")
+        if not phone:
+            phone = list[position]["phone"]
+
+        email = input("Pease enter new email. Space if you dont want change atribute: ")
+        if not email:
+            email = list[position]["email"]
 
         del list[position]
 
@@ -75,7 +88,7 @@ def updateElement():
             else:
                 break
         list.insert(insertPosition, newItem)
-        print("Info for " + name + " updated!")
+        print("Info for updated!")
 
 
 def main():
